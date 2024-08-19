@@ -39,6 +39,7 @@ html {
 }
 
 body {
+    background-color: var(--stone-100);
     line-height: 1.5;
     font-family: 'Outfit', Arial;
     display: flex;

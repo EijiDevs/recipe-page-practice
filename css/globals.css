@@ -126,7 +126,11 @@ ol li::before {
     font-weight: bold;
     position: absolute;
     left: 0;
-    font-size: 1.2em;
+    font-size: 1.6rem;
+}
+
+li:not(:last-child) {
+    margin-bottom: 1.6rem; 
 }
 
 a {

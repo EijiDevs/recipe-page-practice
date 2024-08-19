@@ -41,6 +41,9 @@ html {
 body {
     line-height: 1.5;
     font-family: 'Outfit', Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, h2 {

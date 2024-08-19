@@ -57,5 +57,27 @@
                 color:var(--brown-800)
             }
         }
+
+        .recipe__nutrition{
+            .nutrition__description{
+                margin-bottom: 1.4rem;
+            }
+
+            .nutrition__table{
+                width: 100%;
+
+                .nutrition__table-row{
+                    border-bottom: 1px solid var(--stone-150);
+                    
+                    .nutrition__table-data {
+                        padding: .5rem 0 .5rem 0;
+                    }
+
+                    .nutrition__table-data:not(:has(> b:first-child)) {
+                        padding-left: 3.2rem;
+                    }
+                }
+            }
+        }
     }
 }

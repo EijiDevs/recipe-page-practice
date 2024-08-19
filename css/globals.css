@@ -82,6 +82,7 @@ p, ul, ol, table {
 }
 
 hr {
+    width: 100%;
     min-height: 1px;
     background-color: var(--stone-150);
 }

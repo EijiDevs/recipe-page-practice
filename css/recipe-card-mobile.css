@@ -46,5 +46,15 @@
 
         }
 
+        .recipe__ingredients{
+            .ingredients__title{
+                margin-bottom: 2.8rem;
+            }
+
+            .ingredients__list li::before{
+                color: var(--brown-800)
+            }
+        }
+
     }
 }

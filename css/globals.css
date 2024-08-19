@@ -50,6 +50,7 @@ body {
 
 h1, h2 {
     font-family: 'Young Serif', 'Outfit',Arial;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -57,14 +58,17 @@ h1, h2 {
 
 h1 {
     font-size: var(--principal-title-size);
+    color: var(--stone-900);
 }
 
 h2 {
     font-size: var(--secondary-title-size);
+    color: var(--brown-800);
 }
 
 h3 {
     font-size: var(--terciary-title-size);
+    color: var(--rose-800);
 }
 
 p, h3, h4, h5, h6 {
@@ -73,6 +77,12 @@ p, h3, h4, h5, h6 {
 
 p, ul, ol, table {
     font-size: var(--paragraph-size);
+    color: var(--stone-600);
+}
+
+hr {
+    min-height: 1px;
+    background-color: var(--stone-150);
 }
 
 ul, ol {
@@ -88,6 +98,10 @@ a {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+table b {
+    color: var(--brown-800);
 }
 
 input, textarea, button, select {

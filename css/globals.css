@@ -49,8 +49,24 @@ h1, h2 {
     padding: 0;
 }
 
+h1 {
+    font-size: var(--principal-title-size);
+}
+
+h2 {
+    font-size: var(--secondary-title-size);
+}
+
+h3 {
+    font-size: var(--terciary-title-size);
+}
+
 p, h3, h4, h5, h6 {
     font-family: 'Outfit', Arial;
+}
+
+p, ul, ol, table {
+    font-size: var(--paragraph-size);
 }
 
 ul, ol {

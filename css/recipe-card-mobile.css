@@ -1,6 +1,5 @@
 .recipe {
     background-color: var(--background-white);
-    min-width: 37.5rem;
     width: 100%;
     max-width: 73.6rem;
     display: flex;
@@ -21,5 +20,31 @@
             gap: 2.8rem;
             padding: 4rem 3.2rem 0 3.2rem;
         }
+    }
+
+    .recipe__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3.3rem;
+        padding: 0 3.2rem 4rem 3.2rem;
+
+        .recipe__preparation-time{
+            width: 100%;
+            background-color: var(--rose-50);
+            border-radius: 1.25rem;
+            padding: 2.5rem;
+
+            .preparation-time__title{
+                margin-bottom: 2rem;
+            }
+
+            .preparation-time__list li::before{
+                color: var(--rose-800);
+            }
+
+        }
+
     }
 }

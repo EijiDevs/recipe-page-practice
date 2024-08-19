@@ -78,6 +78,7 @@ p, h3, h4, h5, h6 {
 
 p, ul, ol, table {
     font-size: var(--paragraph-size);
+    font-weight:500;
     color: var(--stone-600);
 }
 
@@ -90,6 +91,42 @@ hr {
 ul, ol {
     margin: 0;
     padding: 0;
+}
+
+ul li {
+    list-style-type: none; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding-left: 4rem; 
+}
+
+ul li::before {
+    content: "•"; 
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    font-size: 1em;
+}
+
+ol {
+    counter-reset: list-counter;
+}
+
+ol li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 2em; 
+}
+
+ol li::before {
+    counter-increment: list-counter;
+    content: counter(list-counter) ". ";
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
 }
 
 a {

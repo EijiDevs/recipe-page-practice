@@ -1,0 +1,25 @@
+.recipe {
+    background-color: var(--background-white);
+    min-width: 37.5rem;
+    width: 100%;
+    max-width: 73.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.8rem;
+    .recipe__header{
+        width: 100%;
+
+        .header__image {
+            width: 100%;
+        }
+
+        .header__content{
+            display: flex;
+            flex-direction: column;
+            gap: 2.8rem;
+            padding: 4rem 3.2rem 0 3.2rem;
+        }
+    }
+}

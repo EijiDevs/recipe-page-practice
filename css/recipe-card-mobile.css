@@ -53,7 +53,9 @@
         }
 
         .recipe__instrucions{
-
+            .instructions__list li::before{
+                color:var(--brown-800)
+            }
         }
     }
 }

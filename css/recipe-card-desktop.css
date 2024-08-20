@@ -4,4 +4,16 @@ body {
 
 .recipe {
     border-radius: 1.5rem;
+
+    .recipe__header{
+        padding: 4rem 4rem 0 4rem;
+
+        .header__image{
+            border-radius: 1rem;
+        }
+
+        .header__content{
+            padding: 4rem 0 0 0;
+        }
+    }
 }
